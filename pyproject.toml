@@ -1,17 +1,7 @@
 [project]
 name = "robloapi"
 version = "0.1.0"
-description = "ROBLOAPI"
-requires-python = ">=3.12"
-dependencies = [
-    "httpx",
-]
-
-[dependency-groups]
-dev = [
-    "workers-py",
-    "workers-runtime-sdk",
-]
+dependencies = []
 
 [build-system]
 requires = ["hatchling"]
